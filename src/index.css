@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-800;
+}
+.container {
+  @apply mx-auto max-w-6xl p-4;
+}
+.card {
+  @apply bg-white shadow rounded p-4;
+}
